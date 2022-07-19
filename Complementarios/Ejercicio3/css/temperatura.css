@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: linear-gradient(left bottom, rgb(35, 86, 228) 40%, rgb(36,147,174) 70%, rgb(255, 251, 18) 95%);
+
+}
+
+body {
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+/* Estilos para el área donde se mostrará 
+   la imagen de la figura geométrica */
+div {
+	display: block;
+	height: 120px;
+	margin: 0 auto;
+	width: 120px;
+}
+
+header h1 {
+	color: #000;
+	font: Bold 3.2em Tahoma,Helvetica,"Liberation Sans",sans-serif;
+	text-align:center;
+}
+
+nav ul {
+	font-size: 0;
+	padding: 0;
+}
+
+nav ul li {
+	background: rgba(0,0,0,.5);
+	display: inline-block;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	padding: 10px 0;
+	vertical-align: top;
+	width: 30%;
+}
+
+nav ul li:hover{
+    background:rgba(0,0,120,0.25);
+}
+
+nav ul li img {
+    display: block;
+    height: 125px;
+    margin: 0 auto;
+    width: 132px;
+}
+
+nav ul li a {
+    color: #DDD;
+    display: block;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #F6F600;
+}
+
+
+
+#menu-options ul li {
+	height: auto;
+	width: 320px;
+}
+
+.back-button {
+	background-color: rgba(205,125,125,1); /* #0960C9 */
+	color: #ccc;
+	display: block;
+	font-size: 1.2em;
+	font-weight: Bold;
+	height: 50px;
+	margin: 32px auto;
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 24%;
+}
+
+.back-button:hover {
+	background-color: rgba(225,135,130,0.75);
+	color: #fff;
+	text-decoration: none;
+}
